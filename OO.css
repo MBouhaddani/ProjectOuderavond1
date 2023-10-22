@@ -98,6 +98,8 @@ p {
 
 table{ background-color: white;}
 
+hr{ height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(0, 0, 0)}
+
 
 /* BSA.html */
 
@@ -131,4 +133,49 @@ table{ background-color: white;}
  color: #ff0000;
 
 }
+}
+
+
+
+
+form {
+  /* Centreren van het formulier op de pagina */
+  margin: 0 auto;
+  width: 300px;
+}
+
+input[type="text"], input[type="email"], input[type="date"], input[type="url"], textarea {
+  /* Volledige breedte */
+  width: 100%;
+  /* Padding */
+  padding: 12px;
+  /* Rand */
+  border: 1px solid #ccc;
+  /* Ronde hoeken */
+  border-radius: 4px;
+  /* Zorg ervoor dat de box-sizing de padding en border omvat, zodat de breedte altijd 100% blijft */
+  box-sizing: border-box;
+  /* Marges tussen velden */
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+input[type="submit"] {
+  /* Volledige breedte */
+  width: 100%;
+  /* Achtergrondkleur */
+  background-color: #4CAF50;
+  /* Witte tekst */
+  color: white;
+  /* Padding */
+  padding: 14px;
+  /* Rand */
+  border: none;
+  /* Ronde hoeken */
+  border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+    /* Verander de achtergrondkleur wanneer je over de knop zweeft */
+    background-color: #45a049;
 }
