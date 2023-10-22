@@ -61,6 +61,11 @@ p {
 }
 
 
+
+
+
+
+
 /* OverOns.html */
 #OW {
   float: left;
@@ -71,111 +76,135 @@ p {
 }
 
 
+
+
+
+
+
+
+
 /* index.html */
 #titlez {
   background-color: #1f0985;
   border: 1px solid rgb(0, 0, 0);
   padding: 5px;
   background-repeat: no-repeat;
-  h1{
+
+  h1 {
     color: aliceblue;
   }
 }
 
 
+
+
+
+
+
+
 /* canvas.html */
-#h1canvas{
+#h1canvas {
   background-color: #0b003b;
   border: 1px solid black;
   padding: 5px;
-  background-repeat: no-repeat; }
-  h1{
-    color:rgb(251, 251, 255);
-  }
+  background-repeat: no-repeat;
+}
 
-#imgcanvas { float: right;}
-#canvasbody { background-color: #86d400}
+h1 {
+  color: rgb(251, 251, 255);
+}
 
-table{ background-color: white;}
+#imgcanvas {
+  float: right;
+}
 
-hr{ height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(0, 0, 0)}
+#canvasbody {
+  background-color: #86d400
+}
 
+table {
+  background-color: white;
+}
 
-/* BSA.html */
-
-
-/* EDUARTE.html */
-
-
-/* ouder.html */
-
-
-/* !.html */
-
-
-/* !.html */
-
-
-/* !.html */
+hr {
+  height: 2px;
+  border-width: 0;
+  color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0)
+}
 
 
-/* !.html */
 
 
-/* !.html */
+
+
 
 
 
 @media (max-width:991px) {
   h1 {
-      text-align: right; /* Plaats de tekst naar rechts */
-      padding-right: 20px; /* Voeg wat rechtervulling toe voor uitlijning */
- color: #ff0000;
+    text-align: right;
 
+    padding-right: 20px;
+
+    color: #ff0000;
+
+  }
 }
-}
 
 
 
+
+
+
+
+
+
+
+/* formulier overons.html*/
 
 form {
-  /* Centreren van het formulier op de pagina */
+
   margin: 0 auto;
   width: 300px;
 }
 
-input[type="text"], input[type="email"], input[type="date"], input[type="url"], textarea {
-  /* Volledige breedte */
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="url"],
+textarea {
+
   width: 100%;
-  /* Padding */
+
   padding: 12px;
-  /* Rand */
+
   border: 1px solid #ccc;
-  /* Ronde hoeken */
+
   border-radius: 4px;
-  /* Zorg ervoor dat de box-sizing de padding en border omvat, zodat de breedte altijd 100% blijft */
+
   box-sizing: border-box;
-  /* Marges tussen velden */
+
   margin-top: 6px;
   margin-bottom: 16px;
 }
 
 input[type="submit"] {
-  /* Volledige breedte */
+
   width: 100%;
-  /* Achtergrondkleur */
+
   background-color: #4CAF50;
-  /* Witte tekst */
+
   color: white;
-  /* Padding */
+
   padding: 14px;
-  /* Rand */
+
   border: none;
-  /* Ronde hoeken */
+
   border-radius: 4px;
 }
 
 input[type="submit"]:hover {
-    /* Verander de achtergrondkleur wanneer je over de knop zweeft */
-    background-color: #45a049;
+
+  background-color: #45a049;
 }
