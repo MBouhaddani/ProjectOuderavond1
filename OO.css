@@ -1,5 +1,4 @@
-/* Algemene */
-
+/* General Styles */
 body {
   background-color: #86d400;
 }
@@ -39,30 +38,13 @@ li a:hover:not(.active) {
 
 h1 {
   text-align: center;
-  color: aliceblue;
-}
-
-#logo {
-  position: absolute;
-  top: 1;
-  left: 1;
-  z-index: 999;
-  height: auto;
-  width: auto;
-  background-color: rgb(255, 255, 255);
 }
 
 p {
   border: 2px solid black;
   padding: 25px;
   background-color: white;
-  background-repeat: no-repeat;
-  background-size: auto;
 }
-
-
-
-
 
 
 
@@ -75,43 +57,18 @@ p {
   float: right;
 }
 
-
-
-
-
-
-
-
-
 /* index.html */
 #titlez {
   background-color: #1f0985;
   border: 1px solid rgb(0, 0, 0);
   padding: 5px;
-  background-repeat: no-repeat;
-
-  h1 {
-    color: aliceblue;
-  }
 }
-
-
-
-
-
-
-
 
 /* canvas.html */
 #h1canvas {
   background-color: #0b003b;
   border: 1px solid black;
   padding: 5px;
-  background-repeat: no-repeat;
-}
-
-h1 {
-  color: rgb(251, 251, 255);
 }
 
 #imgcanvas {
@@ -127,84 +84,46 @@ table {
 }
 
 hr {
-  height: 2px;
-  border-width: 0;
-  color: rgb(0, 0, 0);
-  background-color: rgb(0, 0, 0)
+ height:2px; 
+ border-width:0; 
+ color:black; 
+ background-color:black; 
 }
 
-
-
-
-
-
-
-
-
+/* Media Queries */
 @media (max-width:991px) {
-  h1 {
-    text-align: right;
-
-    padding-right: 20px;
-
-    color: #ff0000;
-
-  }
+ h1 { 
+   text-align:right; 
+   padding-right :20px; 
+   color:#ff0000; 
+ }
 }
 
+/* Form Styles */
+form { 
+ margin :0 auto; 
+ width :300px; 
+} 
 
+input[type="text"], input[type="email"], input[type="date"], input[type="url"], textarea { 
+ width :100%; 
+ padding :12px; 
+ border :1px solid #ccc; 
+ border-radius :4px; 
+ box-sizing :border-box; 
+ margin-top :6px; 
+ margin-bottom :16px; 
+} 
 
+input[type="submit"] { 
+ width :100%; 
+ background-color :#4CAF50; 
+ color :white; 
+ padding :14px; 
+ border :none; 
+ border-radius :4px; 
+} 
 
-
-
-
-
-
-
-/* formulier overons.html*/
-
-form {
-
-  margin: 0 auto;
-  width: 300px;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="date"],
-input[type="url"],
-textarea {
-
-  width: 100%;
-
-  padding: 12px;
-
-  border: 1px solid #ccc;
-
-  border-radius: 4px;
-
-  box-sizing: border-box;
-
-  margin-top: 6px;
-  margin-bottom: 16px;
-}
-
-input[type="submit"] {
-
-  width: 100%;
-
-  background-color: #4CAF50;
-
-  color: white;
-
-  padding: 14px;
-
-  border: none;
-
-  border-radius: 4px;
-}
-
-input[type="submit"]:hover {
-
-  background-color: #45a049;
+input[type="submit"]:hover { 
+ background-color :#45a049; 
 }
