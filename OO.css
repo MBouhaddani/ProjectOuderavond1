@@ -38,6 +38,7 @@ li a:hover:not(.active) {
 
 h1 {
   text-align: center;
+  color: #ffffff;
 }
 
 p {
@@ -59,14 +60,14 @@ p {
 
 /* index.html */
 #titlez {
-  background-color: #1f0985;
+  background-color: #0008ff;
   border: 1px solid rgb(0, 0, 0);
   padding: 5px;
 }
 
 /* canvas.html */
 #h1canvas {
-  background-color: #0b003b;
+  background-color: #000000;
   border: 1px solid black;
   padding: 5px;
 }
@@ -127,3 +128,9 @@ input[type="submit"] {
 input[type="submit"]:hover { 
  background-color :#45a049; 
 }
+
+iframe{ float: right;}
+
+#logo{ float: left;
+background-color: white;}
+
