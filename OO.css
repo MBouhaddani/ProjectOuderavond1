@@ -1,7 +1,4 @@
 /* General Styles */
-body {
-  background-color: #86d400;
-}
 
 ul {
   list-style-type: none;
@@ -10,7 +7,6 @@ ul {
   overflow: hidden;
   background-color: #000000;
 }
-
 li {
   float: left;
   border-right: 1px solid #bbb;
@@ -134,3 +130,25 @@ iframe{ float: right;}
 #logo{ float: left;
 background-color: white;}
 
+
+@keyframes color {
+  0%   { background: #b50aff; }
+  20%  { background: #c10027; }
+  40%  { background: #B8CC33; }
+  60%  { background: #FCCA00; }
+  80%  { background: #23fffb; }
+  100% { background: #e37500; }
+}
+
+body {
+  background: #33CCCC; /* Fallback */
+  animation: color 9s infinite linear;
+  text-align: center;
+  padding: 2em;
+}
+h1 {
+  text-align: center;
+  font-family: 'Kavoon', sans-serif;
+  font-size: 2.5em;
+  color: white;
+}
