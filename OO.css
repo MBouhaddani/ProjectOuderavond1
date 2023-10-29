@@ -131,20 +131,13 @@ iframe{ float: right;}
 background-color: white;}
 
 
-@keyframes color {
-  0%   { background: #b50aff; }
-  20%  { background: #c10027; }
-  40%  { background: #B8CC33; }
-  60%  { background: #FCCA00; }
-  80%  { background: #23fffb; }
-  100% { background: #e37500; }
-}
+
 
 body {
-  background: #33CCCC; /* Fallback */
-  animation: color 9s infinite linear;
+  background-image: url("https://img.freepik.com/free-vector/gradient-background-green-modern-designs_343694-2067.jpg?w=1380&t=st=1698600273~exp=1698600873~hmac=0d0bf9552cca260c11bbcadc0fc48f5cd320dc7c766a4958fb8a45eda982d9c6");
   text-align: center;
-  padding: 2em;
+  background-size: auto;
+  
 }
 h1 {
   text-align: center;
